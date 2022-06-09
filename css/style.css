@@ -30,7 +30,7 @@ a {
 
 /* header start */
 .navbar-brand img {
-    width: 50%;
+    height: 50px;
 }
 
 /* header start */
@@ -318,8 +318,9 @@ a {
 
 /* blog start */
 .single-blog {
-	margin-bottom: 20px;
+    margin-bottom: 20px;
 }
+
 .blog-content a h4 {
     color: #222;
     font-size: 25px;
@@ -338,3 +339,36 @@ a {
 }
 
 /* blog end */
+
+
+
+/* responsive */
+
+/* small mobile :320px. */
+@media (max-width: 767px) {
+
+    .navbar-brand {
+        width: 70%;
+    }
+
+    .navbar-brand img {
+        height: 50px;
+        width: 100%;
+    }
+}
+
+/* Large Mobile :480px. */
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+    .container {
+        width: 450px
+    }
+
+    .navbar-brand {
+        width: 75%;
+    }
+
+    .navbar-brand img {
+        height: 50px;
+        width: 100%;
+    }
+}
